@@ -2,7 +2,7 @@ h1{
     background: chocolate;
     color: white;
     padding: 10px;
-    width: 38%;
+    width: 25%;
 }
 #instructions{
     width: 40%;
@@ -11,13 +11,37 @@ h1{
 }
 .crystals{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
-    border: 2px;
 }
 .crystal{
-    padding: 50px;
     width: 150px;
     height: 150px;
-    border: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    /* background-image: "url" + "(images[i])"; */
+}
+#container{
+    /* padding: 5px; */
+    width: 100%;
+    overflow: hidden;
+}
+#computerNumber{ 
+    /* background: #ccc; */
+    padding: 15px;
+    width: 10%;
+    text-align: left;
+    float: left;
+    margin-top: 1px;
+}
+#winsAndlosses{
+    /* background: #ccc; */
+    width: 15%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+#scoreHolder{
+    width: 40%;
+    /* background: #ccc; */
 }
