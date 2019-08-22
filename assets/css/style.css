@@ -1,25 +1,64 @@
+body{
+    background: black;
+}
 h1{
-    background: chocolate;
     color: white;
     padding: 10px;
     width: 25%;
+    text-align: center;
 }
 #instructions{
     width: 40%;
-    background: beige;
-    color: green;
+    color: white; 
 }
 .crystals{
     display: flex;
     /* align-items: center; */
     text-align: center;
 }
-.crystal{
+.crystal0{
     width: 150px;
     height: 150px;
     border: 2px solid black;
     margin: 5px;
-    /* background-image: "url" + "(images[i])"; */
+    background-image: url(../images/blueCrystal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.crystal1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    background-image: url(../images/clearCrystal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.crystal2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    background-image: url(../images/pinkCrystal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.crystal3{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    background-image: url(../images/purpleCrystal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #container{
     /* padding: 5px; */
@@ -33,6 +72,7 @@ h1{
     text-align: left;
     float: left;
     margin-top: 1px;
+    color: white; 
 }
 #winsAndlosses{
     /* background: #ccc; */
@@ -40,8 +80,16 @@ h1{
     float: left;
     margin-left: 10%;
     margin-top: 1px;
+    color: white;
 }
 #scoreHolder{
     width: 40%;
+    color: white;
     /* background: #ccc; */
+}
+img {
+    width: 50px;
+}
+p{
+    color: white;
 }
